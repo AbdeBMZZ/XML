@@ -1,0 +1,31 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation=
+"./fichier.xsd">
+    <etudiants>
+        <etudiant cne="R136303724">
+            <nom>boumaiza</nom>
+            <prenom>abdellah</prenom>
+            <date_de_naissance>2001-10-19</date_de_naissance>
+            <notes>
+                <note matiereRef="c_sharp">
+                    <valeur>18</valeur>
+                </note>
+                <note matiereRef="Java">
+                    <valeur>17.5</valeur>
+                </note>
+            </notes>
+        </etudiant>
+    </etudiants>
+    <matieres>
+        <matiere code = "c_sharp">
+            <nom>Language C-sharp</nom>
+            <description>language de programmation</description>
+        </matiere>
+        <matiere code = "Java">
+            <nom>Language Java</nom>
+            <description>language de programmation</description>
+        </matiere>
+    </matieres>
+</application>
